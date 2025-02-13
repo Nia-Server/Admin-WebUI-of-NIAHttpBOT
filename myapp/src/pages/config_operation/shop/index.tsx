@@ -14,7 +14,7 @@ const Page: React.FC = () => {
   }`;
 
   return (
-    <div>
+    <div className={styles.page}>
       <JsonEditor  language="json" defaultValue={defaultCode}/>
     </div>
   );
