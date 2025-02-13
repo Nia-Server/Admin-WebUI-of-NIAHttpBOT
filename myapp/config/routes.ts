@@ -285,7 +285,7 @@ export default [
   // },
   {
     path: '/',
-    redirect: '/dashboard/analysis',
+    redirect: '/config_operation',
   },
   {
     component: '404',
