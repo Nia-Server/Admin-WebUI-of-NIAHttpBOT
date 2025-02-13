@@ -1,5 +1,6 @@
 import React from 'react';
 import JsonEditor from '../components/JsonEditor';
+import styles from '../global.less'
 
 const Page: React.FC = () => {
 
