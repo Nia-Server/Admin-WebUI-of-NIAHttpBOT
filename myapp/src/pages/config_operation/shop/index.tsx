@@ -1,6 +1,6 @@
 import React from 'react';
-import JsonEditor from '../components/JsonEditor';
 import styles from '../global.less'
+import JsonEditor from '../components//JsonEditor';
 
 const Page: React.FC = () => {
 
@@ -15,7 +15,7 @@ const Page: React.FC = () => {
 
   return (
     <div className={styles.page}>
-      <JsonEditor  language="json" defaultValue={defaultCode}/>
+      < JsonEditor language="ini" defaultValue={defaultCode} file_api='../../api'/>
     </div>
   );
 };

@@ -44,12 +44,16 @@
     "@antv/l7": "^2.20.13",
     "@antv/l7-maps": "^2.20.13",
     "@antv/l7-react": "^2.4.3",
+    "@douyinfe/semi-ui": "^2.74.0",
     "@monaco-editor/react": "^4.6.0",
+    "@types/json-editor": "^0.0.10",
     "@umijs/route-utils": "^2.2.2",
-    "antd": "^5.12.7",
+    "@wibetter/json-editor": "^5.1.27",
+    "antd": "^5.24.0",
     "antd-style": "^3.6.1",
     "classnames": "^2.5.1",
     "dayjs": "^1.11.10",
+    "form-render": "^2.5.2",
     "monaco-editor": "^0.52.2",
     "numeral": "^2.0.6",
     "omit.js": "^2.0.2",
@@ -57,7 +61,8 @@
     "rc-util": "^5.38.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-fittext": "^1.0.0"
+    "react-fittext": "^1.0.0",
+    "react-json-view": "^1.21.3"
   },
   "devDependencies": {
     "@ant-design/pro-cli": "^2.1.5",

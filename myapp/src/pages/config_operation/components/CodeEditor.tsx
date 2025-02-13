@@ -3,13 +3,13 @@ import { Button, Modal, Radio } from 'antd';
 import MonacoEditor from '@monaco-editor/react';
 import axios from 'axios';
 
-interface JsonEditorProps {
+interface CodeEditorProps {
     language: string;
     defaultValue: string;
     file_api: string;
 }
 
-const JsonEditor: React.FC<JsonEditorProps> = ({ language, defaultValue , file_api }) => {
+const CodeEditor: React.FC<CodeEditorProps> = ({ language, defaultValue, file_api }) => {
     const [content, setContent] = useState<string>(defaultValue);
     const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
     const [viewMode, setViewMode] = useState<'editor' | 'form'>('editor');
@@ -137,4 +137,4 @@ const JsonEditor: React.FC<JsonEditorProps> = ({ language, defaultValue , file_a
     );
 };
 
-export default JsonEditor;
+export default CodeEditor;

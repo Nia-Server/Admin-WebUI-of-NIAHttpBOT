@@ -1,5 +1,5 @@
 import React from 'react';
-import JsonEditor from '../components/JsonEditor';
+import CodeEditor from '../components/CodeEditor';
 import styles from '../global.less'
 
 const Page: React.FC = () => {
@@ -30,7 +30,7 @@ QQGroup = 123456789
 
   return (
     <div className={styles.page}>
-      <JsonEditor  language="ini" defaultValue={defaultCode} />
+      < CodeEditor language="ini" defaultValue={defaultCode} file_api='../../api'/>
     </div>
   );
 };
