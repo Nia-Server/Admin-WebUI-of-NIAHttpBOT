@@ -4,6 +4,7 @@ const Settings: ProLayoutProps & {
   pwa?: boolean;
   logo?: string;
 } = {
+  title: 'NiaServer WebUI',
   navTheme: 'light',
   colorPrimary: '#660874', // 设置主色为紫色
   layout: 'mix',
