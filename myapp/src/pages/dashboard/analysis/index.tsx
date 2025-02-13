@@ -2,7 +2,7 @@ import { EllipsisOutlined } from '@ant-design/icons';
 import { GridContent } from '@ant-design/pro-components';
 import { useRequest } from '@umijs/max';
 import { Col, Dropdown, Row } from 'antd';
-import type { RangePickerProps } from 'antd/es/date-picker/generatePicker';
+//import type { RangePickerProps } from 'antd/es/date-picker/generatePicker';
 import type { RadioChangeEvent } from 'antd/es/radio';
 import type dayjs from 'dayjs';
 import type { FC } from 'react';
